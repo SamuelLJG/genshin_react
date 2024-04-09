@@ -93,13 +93,9 @@ function ArtefactCard(props) {
 </div>
 <p>{props.ArtefactDescription}</p>
 </div>
-</section></>
+</section>
+<script type="module" src="./main.jsx"></script>
+</>
 }
 
-function Br(){
-    return <>
-    <br />
-    </>
-}
-
-export {Characters,WeaponCard,ArtefactCard, Br}
+export {Characters,WeaponCard,ArtefactCard}

@@ -1,5 +1,5 @@
 import { BaizhuHelmet } from "../components/Helmets";
-import { Characters, WeaponCard, ArtefactCard, Br } from "../components/Characters";
+import { Characters, WeaponCard, ArtefactCard } from "../components/Characters";
 
 
 const characterCardListData = [
