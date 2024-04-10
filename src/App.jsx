@@ -1,10 +1,10 @@
-import './App.css'
-import { Helmet } from "react-helmet-async";
+import "./App.css"
+import { Helmet } from "react-helmet-async"
 import { Outlet } from "react-router-dom"
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 
-//import Menu from './pages/Menu';
+//import Menu from "./pages/Menu"
 // <Menu />
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
       <Outlet />
       <Footer />
   </>
-};
+}
 
 
 

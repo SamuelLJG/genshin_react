@@ -1,5 +1,5 @@
-import { ChioriHelmet } from "../components/Helmets";
-import { Characters, WeaponCard, ArtefactCard } from "../components/Characters";
+import { ChioriHelmet } from "../components/Helmets"
+import { Characters, WeaponCard, ArtefactCard } from "../components/Characters"
 
 
 const characterCardListData = [

@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet-async"
 
 function Home() {
     return <>
@@ -13,8 +13,8 @@ function Home() {
         <title>Genshin Impact | Builds, Times e TierList de Personagens</title>
       </Helmet>
       <h1>Home</h1>
-    </>;
+    </>
   }
   
-  export default Home;
+  export default Home
   

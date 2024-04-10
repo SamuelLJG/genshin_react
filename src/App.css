@@ -2,7 +2,7 @@
 body{
     background-color: #191919;
     color: white;
-    font-family: 'Dm Sans';
+    font-family: "Dm Sans";
 }
 .ads{
     display: flex;
@@ -15,6 +15,6 @@ body{
 }
 .ads::before{
     position: absolute;
-    content: 'Este site é suportado por anúncios.';
+    content: "Este site é suportado por anúncios.";
     font-size:min(15px,4vw);
 }

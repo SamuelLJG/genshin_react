@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet-async"
 
 function Sobre() {
     return <>
@@ -12,4 +12,4 @@ function Sobre() {
    </>
   }
   
-  export default Sobre;
+  export default Sobre

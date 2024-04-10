@@ -89,7 +89,9 @@ function ArtefactCard(props) {
 </div>
 <div>
     <h4>{props.ArtefactTitle}</h4>
-    <p>{props.ArtefactSubStats}</p>
+    <p><i class="fa-regular fa-hourglass-half" aria-hidden="true"></i>&nbsp;{props.ArtefactSubStats}</p>
+    <p>{props.ArtefactSubStats2}</p>
+    <p>{props.ArtefactSubStats3}</p>
 </div>
 <p>{props.ArtefactDescription}</p>
 </div>

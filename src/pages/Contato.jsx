@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet-async"
 
 function Contato() {
     return <>
@@ -6,7 +6,7 @@ function Contato() {
             <title>Contato</title>
         </Helmet>
         <h1>Contato</h1>
-    </>;
+    </>
   }
   
   export default Contato;
