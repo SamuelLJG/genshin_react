@@ -21,15 +21,15 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/contato",
+        path: "https://genshin-react-vite.netlify.app//contato",
         element: <Contato />,
       },
       {
-        path: "/sobre",
+        path: "https://genshin-react-vite.netlify.app//sobre",
         element: <Sobre />,
       },
       {
-        path: "/chiori",
+        path: "https://genshin-react-vite.netlify.app//chiori",
         element: <Chiori />,
       }
     ]
