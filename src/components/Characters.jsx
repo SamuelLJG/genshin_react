@@ -94,7 +94,7 @@ function ArtefactCard(props) {
 <p>{props.ArtefactDescription}</p>
 </div>
 </section>
-<script type="module" src="./main.jsx"></script>
+<script type="module" src="../../main.jsx"></script>
 </>
 }
 
