@@ -13,28 +13,28 @@ import { HelmetProvider } from "react-helmet-async"
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/genshin_react/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path: "/genshin_react/",
         element: <Home />,
       },
       {
-        path: "/contato",
+        path: "/genshin_react/contato",
         element: <Contato />,
       },
       {
-        path: "/sobre",
+        path: "/genshin_react/sobre",
         element: <Sobre />,
       },
       {
-        path: "/chiori",
+        path: "/genshin_react/chiori",
         element: <Chiori />,
       },
       {
-        path: "/baizhu",
+        path: "/genshin_react/baizhu",
         element: <Baizhu />,
       }
     ]
