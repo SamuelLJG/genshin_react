@@ -1,5 +1,5 @@
 {
-  "homepage": "https://samuelljg.github.io/genshin_react",
+  "homepage": "https://genshin-react-vite.netlify.app/",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
@@ -29,3 +29,4 @@
     "vite": "^5.2.0"
   }
 }
+

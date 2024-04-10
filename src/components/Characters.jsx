@@ -1,5 +1,4 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
-
 function Characters(props) {
         return <>
         <section
@@ -38,13 +37,12 @@ function Characters(props) {
                 </p>
             </div>
         </section>
-        <div className="ads"></div>
     </>
 };
 
 function WeaponCard(props) {
         return <>
-<section>
+<section className="weapons-artefats-section">
 
 <div>
     <p></p>
@@ -71,7 +69,7 @@ function WeaponCard(props) {
 }
 function ArtefactCard(props) {
     return <>
-<section>
+<section className="weapons-artefacts-section">
 
 <div>
 <p></p>
@@ -89,9 +87,11 @@ function ArtefactCard(props) {
 </div>
 <div>
     <h4>{props.ArtefactTitle}</h4>
-    <p><i class="fa-regular fa-hourglass-half" aria-hidden="true"></i>&nbsp;{props.ArtefactSubStats}</p>
-    <p>{props.ArtefactSubStats2}</p>
-    <p>{props.ArtefactSubStats3}</p>
+    <div>
+    <p><i class="fa-regular fa-hourglass-half"></i>&nbsp;{props.ArtefactSubStats}</p>
+    <p><i class="fa-solid fa-trophy"></i>&nbsp;{props.ArtefactSubStats2}</p>
+    <p><i class="fa-solid fa-crown"></i>&nbsp;{props.ArtefactSubStats3}</p>
+    </div>
 </div>
 <p>{props.ArtefactDescription}</p>
 </div>

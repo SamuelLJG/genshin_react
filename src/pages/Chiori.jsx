@@ -55,7 +55,9 @@ const characterArtefactsListData = [
         ArtefactRarityAlt: "5 Estrelas",
         ArtefactRarityTitle: "5 Estrelas",
         ArtefactTitle: "Casca de Sonhos Opulentos",
-        ArtefactSubStats: "DEF % Bônus de Dano Geo % Taxa ou Dano CRIT",
+        ArtefactSubStats: "DEF % ",
+        ArtefactSubStats2: "Bônus de Dano Geo",
+        ArtefactSubStats3: "Taxa ou Dano CRIT",
         ArtefactDescription: "(2) Peças: Aumenta o dano da Habilidade Elemental em 20%. (4) Peças: Aumenta o Dano da Habilidade Elemental em 25%. Além disso, quando o personagem não está no campo de batalha, o Dano da Habilidade Elemental aumenta em mais 25%. Este efeito será removido 2s após o personagem entrar no campo de batalha."
     },
     {
@@ -66,7 +68,9 @@ const characterArtefactsListData = [
         ArtefactRarityAlt: "5 Estrelas",
         ArtefactRarityTitle: "5 Estrelas",
         ArtefactTitle: "Trupe Dourada",
-        ArtefactSubStats: "DEF % Bônus de Dano Geo % Taxa ou Dano CRIT",
+        ArtefactSubStats: "DEF % ",
+        ArtefactSubStats2: "Bônus de Dano Geo",
+        ArtefactSubStats3: "Taxa ou Dano CRIT",
         ArtefactDescription: "(2) Peças: Aumenta o dano da Habilidade Elemental em 20%. (4) Peças: Aumenta o Dano da Habilidade Elemental em 25%. Além disso, quando o personagem não está no campo de batalha, o Dano da Habilidade Elemental aumenta em mais 25%. Este efeito será removido 2s após o personagem entrar no campo de batalha."
     }
 ]
@@ -93,40 +97,45 @@ function Chiori() {
                 FunctionElement={item.FunctionElement}
                 Rarity={item.Rarity}
                 />
-            )
-    })}
-    {
-            characterWeaponsListData.map(function(item){
+                )
+            })
+        }
+        {
+            characterWeaponsListData.map(function({WeaponCardImage, WeaponCardAlt, WeaponCardTitle, WeaponRarityImage, WeaponRarityAlt, WeaponRarityTitle, WeaponTitle, WeaponSubStats, WeaponDescription}){
                 return (
                 <WeaponCard
-                WeaponCardImage={item.WeaponCardImage}
-                WeaponCardAlt={item.WeaponCardAlt}
-                WeaponCardTitle={item.WeaponCardTitle}
-                WeaponRarityImage={item.WeaponRarityImage}
-                WeaponRarityAlt={item.WeaponRarityAlt}
-                WeaponRarityTitle={item.WeaponRarityTitle}
-                WeaponTitle={item.WeaponTitle}
-                WeaponSubStats={item.WeaponSubStats}
-                WeaponDescription={item.WeaponDescription}
+                WeaponCardImage={WeaponCardImage}
+                WeaponCardAlt={WeaponCardAlt}
+                WeaponCardTitle={WeaponCardTitle}
+                WeaponRarityImage={WeaponRarityImage}
+                WeaponRarityAlt={WeaponRarityAlt}
+                WeaponRarityTitle={WeaponRarityTitle}
+                WeaponTitle={WeaponTitle}
+                WeaponSubStats={WeaponSubStats}
+                WeaponDescription={WeaponDescription}
                 />
-            )
-    })}
-    {
-    characterArtefactsListData.map(function(item){
-        return (
-        <ArtefactCard
-        ArtefactCardImage={item.ArtefactCardImage}
-        ArtefactCardAlt={item.ArtefactCardAlt}
-        ArtefactCardTitle={item.ArtefactCardTitle}
-        ArtefactRarityImage={item.ArtefactRarityImage}
-        ArtefactRarityAlt={item.ArtefactRarityAlt}
-        ArtefactRarityTitle={item.ArtefactRarityTitle}
-        ArtefactTitle={item.ArtefactTitle}
-        ArtefactSubStats={item.ArtefactSubStats}
-        ArtefactDescription={item.ArtefactDescription}
-        />
-    )
-})}
+                )
+            })
+        }
+        {
+            characterArtefactsListData.map(function(item){
+                return (
+                <ArtefactCard
+                ArtefactCardImage={item.ArtefactCardImage}
+                ArtefactCardAlt={item.ArtefactCardAlt}
+                ArtefactCardTitle={item.ArtefactCardTitle}
+                ArtefactRarityImage={item.ArtefactRarityImage}
+                ArtefactRarityAlt={item.ArtefactRarityAlt}
+                ArtefactRarityTitle={item.ArtefactRarityTitle}
+                ArtefactTitle={item.ArtefactTitle}
+                ArtefactSubStats={item.ArtefactSubStats}
+                ArtefactSubStats2={item.ArtefactSubStats2}
+                ArtefactSubStats3={item.ArtefactSubStats3}
+                ArtefactDescription={item.ArtefactDescription}
+                />
+                )
+            })
+        }
     </>
 }
 

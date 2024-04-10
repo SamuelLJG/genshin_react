@@ -16,21 +16,5 @@ function ChioriHelmet() {
     </Helmet>
     </>
 };
-function BaizhuHelmet() {
-    return <>
-    <Helmet>
-    <meta charset="UTF-8"/>
-<meta name="description" content="Maximize o potencial do personagem Baizhu em Genshin Impact com nossas builds especializadas! Confira as melhores opções de armas, artefatos e times."/>
-<meta name="robots" content="max-image-preview:large"/>
-<meta property="og:image" content="https://genshinbuild.com/images/FullQuality/Wish_Baizhu.webp"/>
-<meta property="og:title" content="Baizhu Melhores Builds e Times - Genshin Impact"/>
-<meta property="og:description" content="Maximize o potencial do personagem Baizhu em Genshin Impact com nossas builds especializadas! Confira as melhores opções de armas, artefatos e times."/>
-<meta property="og:url" content="https://genshinbuild.com/baizhu"/>
-<link rel="canonical" href="https://genshinbuild.com/baizhu"/>
-<link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/baizhu"/>
-<title>Baizhu Melhores Builds e Times - Genshin Impact</title>
-    </Helmet>
-    </>
-};
 
-export {ChioriHelmet,BaizhuHelmet}
+export {ChioriHelmet}
