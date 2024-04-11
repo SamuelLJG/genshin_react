@@ -37,12 +37,7 @@ function Characters(props) {
                 </p>
             </div>
         </section>
-    </>
-};
-
-function WeaponCard(props) {
-        return <>
-<section className="weapons-artefats-section">
+        <section className="weapons-artefats-section">
 
 <div>
     <p></p>
@@ -65,8 +60,9 @@ function WeaponCard(props) {
     <p>{props.WeaponDescription}</p>
 </div>
 </section>
-</>
-}
+    </>
+};
+
 function ArtefactCard(props) {
     return <>
 <section className="weapons-artefacts-section">
@@ -99,4 +95,4 @@ function ArtefactCard(props) {
 </>
 }
 
-export {Characters,WeaponCard,ArtefactCard}
+export {Characters,ArtefactCard}

@@ -103,7 +103,7 @@ function Chiori() {
         {
             characterWeaponsListData.map(function({WeaponCardImage, WeaponCardAlt, WeaponCardTitle, WeaponRarityImage, WeaponRarityAlt, WeaponRarityTitle, WeaponTitle, WeaponSubStats, WeaponDescription}){
                 return (
-                <WeaponCard
+                <Characters
                 WeaponCardImage={WeaponCardImage}
                 WeaponCardAlt={WeaponCardAlt}
                 WeaponCardTitle={WeaponCardTitle}

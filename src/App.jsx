@@ -9,6 +9,8 @@ import Footer from "./components/Footer"
 
 function App() {
   return <>
+  <Header />
+      <Outlet />
       <Helmet>
       <meta charset="UTF-8" />
         <meta name="robots" content="max-image-preview:large" />
@@ -27,8 +29,6 @@ function App() {
         <link rel="manifest" href="/site.webmanifest" />
         <title>TODOS</title>
       </Helmet>
-      <Header />
-      <Outlet />
       <Footer />
   </>
 }
