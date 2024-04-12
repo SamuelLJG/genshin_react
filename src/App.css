@@ -307,7 +307,7 @@ h1 {
     top: 20px;
     z-index: 10000;
     padding-top: 10px;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 6px 6px;
 }
 #characters-pop-up:hover #pop-up-list {
     display: block;
@@ -331,6 +331,9 @@ h1 {
     transform: rotate(90deg);
     transition: .3s;
 }
+#pop-up-list div:hover {
+    background: #5273b9;
+}
 @media only screen and (max-width: 820px) {
     main {
         margin: 0px 10px;
@@ -340,7 +343,7 @@ h1 {
     main {
         max-width: 800px;
         padding: 10px;
-        margin-top: 90px;
+        margin-top: 80px;
     }
     .character-section-main {
         padding: 15px;
