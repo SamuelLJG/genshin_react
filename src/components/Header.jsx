@@ -3,10 +3,16 @@ import {Link} from 'react-router-dom'
   function Mobile() {
     var x = document.getElementById('mobile-links')
     var y = document.getElementById('mobile-button')
+    var a = document.getElementById('close-menu')
+    var b = document.getElementById('open-menu')
   if (y.checked===false) {
       x.style.display='block'
+      a.style.display='block'
+      b.style.display='none'
   } else {
       x.style.display='none'
+      a.style.display='none'
+      b.style.display='block'
   }}
 
 const Header = () => {
@@ -27,7 +33,7 @@ const Header = () => {
     <nav id='mobile'>
         <Link to='/' className='home-link'>GENSHIN&nbsp;<i className="fa-brands fa-meta"></i>&nbsp;BUILD</Link>
         <input type="checkbox" id="mobile-button" />
-        <label htmlFor="mobile-button" onClick={Mobile}><i className="fa-solid fa-bars"></i></label>
+        <label htmlFor="mobile-button" onClick={Mobile}><i id='open-menu' className="fa-solid fa-bars"></i><i id='close-menu' className="fa-solid fa-x"></i></label>
         
     </nav>
     <div id='mobile-counter'>

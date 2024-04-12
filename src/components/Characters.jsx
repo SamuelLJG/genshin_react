@@ -9,7 +9,7 @@ function Characters(props) {
                 <LazyLoadImage id="emblem"
                 src={props.EmblemImage}
                 alt={props.EmblemAlt}
-                title={props.EmblemTitle}
+                title={props.EmblemAlt}
                 />
                 <div className={props.MainElement}>
                 </div>
@@ -17,10 +17,10 @@ function Characters(props) {
                     <LazyLoadImage
                     src={props.WeaponCharacterImage}
                     alt={props.WeaponCharacterAlt}
-                    title={props.WeaponCharacterTitle}
+                    title={props.WeaponCharacterAlt}
                     />
                     <h1>
-                        {props.CharacterName}
+                        {props.CharacterName} Build
                     </h1>
                     <div>
                         <p>{props.CharacterFunction}</p>&nbsp;|&nbsp;<p>{props.CharacterElement}</p>
@@ -37,14 +37,27 @@ function Characters(props) {
             <br />
             <div className="ads"></div>
             <br />
-            <h3>{props.BuildBestWeapon} Melhor Arma</h3>
-            <p>{props.BuildBestWeaponDescription}</p>
+            <h3>{props.CharacterName} Melhor Arma</h3>
+            <p>{props.BestWeaponDescription}</p>
             <br />
-            <section className="weapons-artefacts-section">{props.children[0]}</section>
+            <section className="weapons-artefacts-section">
+                {props.children[0]}{props.children[1]}
+            </section>
             <br />
             <p>{props.OtherWeapons}</p>
             <br />
-            <section className="weapons-artefacts-section">{props.children[1]}</section>
+            <h3>{props.CharacterName} Melhor Conjunto de Artefatos</h3>
+            <p>{props.BestArtefactDescription}</p>
+            <br />
+            <section className="weapons-artefacts-section">
+                {props.children[2]}{props.children[3]}
+            </section>
+            <br />
+            <h3>{props.CharacterName} Artefatos Sub-Atributos</h3>
+            <p>{props.ArtefactSubAttribute}</p>
+            <br />
+            <h3>{props.CharacterName} Prioridade de Talentos</h3>
+            <p>{props.TalentPriority}</p>
         </article>
 </main> </>
 }
