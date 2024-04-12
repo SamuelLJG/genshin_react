@@ -1,7 +1,9 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Characters(props) {
-        return <main id={props.MainElement}>
+        return <><br />
+       <main id={props.MainElement}>
+            
             <section id="section-character" className={props.MainElement}>
                 <div id="character-background" style={{backgroundImage:props.characterbackground}}></div>
                 <LazyLoadImage id="emblem"
@@ -24,7 +26,7 @@ function Characters(props) {
                         <p>{props.CharacterFunction}</p>&nbsp;|&nbsp;<p>{props.CharacterElement}</p>
                     </div>
                     <p id="rarity" style={{backgroundImage:props.RarityBackground}}>
-                        {props.Rarity}<i class="fa-solid fa-star"></i>
+                        {props.Rarity}<i className="fa-solid fa-star"></i>
                     </p>
                 </div>
             </section>
@@ -44,7 +46,7 @@ function Characters(props) {
             <br />
             <section className="weapons-artefacts-section">{props.children[1]}</section>
         </article>
-</main>
+</main> </>
 }
 
 export default Characters

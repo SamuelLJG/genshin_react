@@ -19,9 +19,9 @@ export default function ArtefactCard({WeaponsArtefactsContainer, WeaponsArtefact
         </div>
         <div className="ag-title">
             <h4>{ArtefactTitle}</h4>
-            <p><i class="fa-regular fa-hourglass-half"></i>&nbsp;{ArtefactSubStats}</p>
-            <p><i class="fa-solid fa-trophy"></i>&nbsp;{ArtefactSubStats2}</p>
-            <p><i class="fa-solid fa-crown"></i>&nbsp;{ArtefactSubStats3}</p>
+            <p><i className="fa-regular fa-hourglass-half"></i>&nbsp;{ArtefactSubStats}</p>
+            <p><i className="fa-solid fa-trophy"></i>&nbsp;{ArtefactSubStats2}</p>
+            <p><i className="fa-solid fa-crown"></i>&nbsp;{ArtefactSubStats3}</p>
         </div>
     </div>
     <p>{ArtefactDescription}</p>

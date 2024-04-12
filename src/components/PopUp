@@ -1,6 +1,6 @@
-<Link to='/' id='characters-pop-up' className='header-hover'><i class="fa-solid fa-image-portrait"></i>&nbsp;Personagens
+<Link to='/' id='characters-pop-up' className='header-hover'><i className="fa-solid fa-image-portrait"></i>&nbsp;Personagens
               <div id='pop-up-list'>
-                <div className='elements-list'>ANEMO<i class="fa-solid fa-caret-right sieta"></i>
+                <div className='elements-list'>ANEMO<i className="fa-solid fa-caret-right sieta"></i>
                   <LazyLoadImage className='element-img' src="https://genshinbuild.com/images/We/Element_Anemo.webp" alt="Elemento Anemo" title='Elemento Anemo' />
                   <div className='characters-header-list'>
                     <Link to='/wanderer'>ANDARILHO<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Wanderer_Icon.webp" alt="Andarilho" title='Andarilho' /></Link>
@@ -17,7 +17,7 @@
                     <Link to='/xiao'>XIAO<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Xiao_Icon.webp" alt="Xiao" title='Xiao' /></Link>
                   </div>
                 </div>
-                <div className='elements-list'>CRYO<i class="fa-solid fa-caret-right sieta"></i>
+                <div className='elements-list'>CRYO<i className="fa-solid fa-caret-right sieta"></i>
                   <LazyLoadImage className='element-img' src="https://genshinbuild.com/images/We/Element_Cryo.webp" alt="Elemento Cryo" title='Elemento Cryo' />
                   <div className='characters-header-list'>
                     <Link to='/aloy'>ALOY<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Aloy_Icon.webp" alt="Aloy" title='Aloy' /></Link>
@@ -37,7 +37,7 @@
                     <Link to='/wriothesley'>WRIOTHESLEY<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Wriothesley_Icon.webp" alt="Wriothesley" title='Wriothesley' /></Link>
                   </div>
                 </div>
-                <div className='elements-list'>DENDRO<i class="fa-solid fa-caret-right sieta"></i>
+                <div className='elements-list'>DENDRO<i className="fa-solid fa-caret-right sieta"></i>
                   <LazyLoadImage className='element-img' src="https://genshinbuild.com/images/We/Element_Dendro.webp" alt="Elemento Dendro" title='Elemento Dendro' />
                   <div className='characters-header-list'>
                     <Link to='/alhaitham'>ALHAITHAM<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Alhaitham_Icon.webp" alt="Alhaitham" title='Alhaitham' /></Link>
@@ -51,7 +51,7 @@
                     <Link to='/yaoyao'>YAOYAO<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Yaoyao_Icon.webp" alt="Yaoyao" title='Yaoyao' /></Link>
                   </div>
                 </div>
-                <div className='elements-list'>ELECTRO<i class="fa-solid fa-caret-right sieta"></i>
+                <div className='elements-list'>ELECTRO<i className="fa-solid fa-caret-right sieta"></i>
                   <LazyLoadImage className='element-img' src="https://genshinbuild.com/images/We/Element_Electro.webp" alt="Elemento Electro" title='Elemento Electro' />
                   <div className='characters-header-list'>
                     <Link to='/beidou'>Beidou<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Beidou_Icon.webp" alt="Beidou" title='Beidou' /></Link>
@@ -68,7 +68,7 @@
                     <Link to='/yae-miko'>YAE MIKO<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Yae_Miko_Icon.webp" alt="Yae Miko" title='Yae Miko' /></Link>
                   </div>
                 </div>
-                <div className='elements-list'>GEO<i class="fa-solid fa-caret-right sieta"></i>
+                <div className='elements-list'>GEO<i className="fa-solid fa-caret-right sieta"></i>
                   <LazyLoadImage className='element-img' src="https://genshinbuild.com/images/We/Element_Geo.webp" alt="Elemento Geo" title='Elemento Geo' />
                   <div className='characters-header-list'>
                     <Link to='/alhaitham'>ALHAITHAM</Link>
@@ -82,9 +82,9 @@
                     <Link to='/yaoyao'>YAOYAO</Link>
                   </div>
                 </div>
-                <div className='elements-list'>HYDRO<i class="fa-solid fa-caret-right sieta"></i>
+                <div className='elements-list'>HYDRO<i className="fa-solid fa-caret-right sieta"></i>
                 </div>
-                <div className='elements-list'>PYRO<i class="fa-solid fa-caret-right sieta"></i>
+                <div className='elements-list'>PYRO<i className="fa-solid fa-caret-right sieta"></i>
                 </div>
               </div>
             </Link>
