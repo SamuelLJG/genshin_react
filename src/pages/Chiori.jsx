@@ -31,7 +31,6 @@ export default function Chiori() {
             <WeaponCard
             WeaponsArtefactsContainer={Weapons[0].WeaponsArtefactsContainer}
             WeaponsArtefactsOption="Melhor"
-            ContainerOption="best"
             WeaponCardImage={Weapons[0].WeaponCardImage}
             WeaponCardAlt={Weapons[0].WeaponCardAlt}
             WeaponRarityImage={Weapons[0].WeaponRarityImage}
@@ -42,7 +41,6 @@ export default function Chiori() {
             <WeaponCard
             WeaponsArtefactsContainer={Weapons[1].WeaponsArtefactsContainer}
             WeaponsArtefactsOption="Opcional"
-            ContainerOption="optional"
             WeaponCardImage={Weapons[1].WeaponCardImage}
             WeaponCardAlt={Weapons[1].WeaponCardAlt}
             WeaponRarityImage={Weapons[1].WeaponRarityImage}
@@ -53,7 +51,6 @@ export default function Chiori() {
             <ArtefactCard
             WeaponsArtefactsContainer={Artefacts[0].WeaponsArtefactsContainer}
             WeaponsArtefactsOption="Melhor"
-            ContainerOption="best"
             ArtefactCardImage={Artefacts[0].ArtefactCardImage}
             ArtefactCardAlt={Artefacts[0].ArtefactCardAlt}
             ArtefactRarityImage={Artefacts[0].ArtefactRarityImage}
@@ -67,7 +64,6 @@ export default function Chiori() {
             <ArtefactCard
             WeaponsArtefactsContainer={Artefacts[1].WeaponsArtefactsContainer}
             WeaponsArtefactsOption="Opcional"
-            ContainerOption="optional"
             ArtefactCardImage={Artefacts[1].ArtefactCardImage}
             ArtefactCardAlt={Artefacts[1].ArtefactCardAlt}
             ArtefactRarityImage={Artefacts[1].ArtefactRarityImage}

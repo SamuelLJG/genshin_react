@@ -1,8 +1,8 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
-export default function WeaponCard({WeaponsArtefactsContainer, WeaponsArtefactsOption, ContainerOption, WeaponCardImage, WeaponCardAlt, WeaponRarityImage, WeaponRarityAlt, WeaponSubStats, WeaponDescription}) {
+export default function WeaponCard({WeaponsArtefactsContainer, WeaponsArtefactsOption, WeaponCardImage, WeaponCardAlt, WeaponRarityImage, WeaponRarityAlt, WeaponSubStats, WeaponDescription}) {
     return <div className={WeaponsArtefactsContainer}> 
-    <p className={ContainerOption}>{WeaponsArtefactsOption}</p>
+    <p className={WeaponsArtefactsOption}>{WeaponsArtefactsOption}</p>
     <div className="flex-wa">
         <div className="weapons-artefacts-image-container">
             <LazyLoadImage
