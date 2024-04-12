@@ -1,15 +1,15 @@
 import { Helmet } from "react-helmet-async"
 
-function Sobre() {
+function Teams() {
     return <>
     <Helmet>
-        <title>Sobre</title>
+        <title>Times</title>
 
     </Helmet>
-    <h1>Sobre</h1>
+    <h1>Times</h1>
             
     
    </>
   }
   
-  export default Sobre
+  export default Teams

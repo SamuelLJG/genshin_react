@@ -6,9 +6,9 @@
     // </nav>
 
 const Footer = () => {
-  return <>
-    Footer
-  </>;
+  return <footer>
+    
+  </footer>;
 }
 
 export default Footer

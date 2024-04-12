@@ -5,8 +5,9 @@ import Chiori from "./pages/Chiori"
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
 import Home from "./pages/Home"
-import Contato from "./pages/Contato"
-import Sobre from "./pages/Sobre"
+import TierList from "./pages/TierList"
+import Teams from "./pages/Teams"
+import Farming from "./pages/Farming"
 import ErrorPage from "./pages/ErrorPage"
 import { HelmetProvider } from "react-helmet-async"
 
@@ -21,12 +22,16 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/contato",
-        element: <Contato />,
+        path: "/tier-list",
+        element: <TierList />,
       },
       {
-        path: "/sobre",
-        element: <Sobre />,
+        path: "/times",
+        element: <Teams />,
+      },
+      {
+        path: "/farming",
+        element: <Farming />,
       },
       {
         path: "/chiori",

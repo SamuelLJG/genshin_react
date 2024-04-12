@@ -1,12 +1,12 @@
 import { Helmet } from "react-helmet-async"
 
-function Contato() {
+function Farming() {
     return <>
         <Helmet>
-            <title>Contato</title>
+            <title>Farming</title>
         </Helmet>
-        <h1>Contato</h1>
+        <h1>Farming</h1>
     </>
   }
   
-  export default Contato;
+  export default Farming;

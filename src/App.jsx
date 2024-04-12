@@ -4,9 +4,6 @@ import { Outlet } from "react-router-dom"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 
-//import Menu from "./pages/Menu"
-// <Menu />
-
 function App() {
   return <>
   <Header />
@@ -27,7 +24,6 @@ function App() {
         <meta name="theme-color" content="#ffffff" />
         <link rel="stylesheet" href="style.css" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>TODOS</title>
       </Helmet>
       <Footer />
   </>
