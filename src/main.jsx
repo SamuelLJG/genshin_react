@@ -36,7 +36,7 @@ const router = createBrowserRouter([
       {
         path: "/chiori",
         element: <Chiori />,
-      }
+      },
     ]
   },
   

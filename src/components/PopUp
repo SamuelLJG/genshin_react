@@ -1,0 +1,177 @@
+<Link to='/' id='characters-pop-up' className='header-hover'><i class="fa-solid fa-image-portrait"></i>&nbsp;Personagens
+              <div id='pop-up-list'>
+                <div className='elements-list'>ANEMO<i class="fa-solid fa-caret-right sieta"></i>
+                  <LazyLoadImage className='element-img' src="https://genshinbuild.com/images/We/Element_Anemo.webp" alt="Elemento Anemo" title='Elemento Anemo' />
+                  <div className='characters-header-list'>
+                    <Link to='/wanderer'>ANDARILHO<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Wanderer_Icon.webp" alt="Andarilho" title='Andarilho' /></Link>
+                    <Link to='/faruzan'>FARUZAN<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Faruzan_Icon.webp" alt="Faruzan" title='Faruzan' /></Link>
+                    <Link to='/jean'>JEAN<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Jean_Icon.webp" alt="Jean" title='Jean' /></Link>
+                    <Link to='/kaedehara-kazuha'>KAZUHA<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Kaedehara_Kazuha_Icon.webp" alt="Kazuha" title='Kazuha' /></Link>
+                    <Link to='/lynette'>LYNETTE<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Lynette_Icon.webp" alt="Lynette" title='Lynette' /></Link>
+                    <Link to='/sayu'>SAYU<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Sayu_Icon.webp" alt="Sayu" title='Sayu' /></Link>
+                    <Link to='/shikanoin-heizou'>HEIZOU<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Shikanoin_Heizou_Icon.webp" alt="Heizou" title='Heizou' /></Link>
+                    <Link to='/sucrose'>SUCROSE<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Sucrose_Icon.webp" alt="Sucrose" title='Sucrose' /></Link>
+                    <Link to='/traveler-anemo'>VIAJANTE<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Traveler2_Icon.webp" alt="Viajante Anemo" title='Viajante Anemo' /></Link>
+                    <Link to='/venti'>VENTI<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Venti_Icon.webp" alt="Venti" title='Venti' /></Link>
+                    <Link to='/xianyun'>XIANYUN<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Xianyun_Icon.webp" alt="Xianyun" title='Xianyun' /></Link>
+                    <Link to='/xiao'>XIAO<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Xiao_Icon.webp" alt="Xiao" title='Xiao' /></Link>
+                  </div>
+                </div>
+                <div className='elements-list'>CRYO<i class="fa-solid fa-caret-right sieta"></i>
+                  <LazyLoadImage className='element-img' src="https://genshinbuild.com/images/We/Element_Cryo.webp" alt="Elemento Cryo" title='Elemento Cryo' />
+                  <div className='characters-header-list'>
+                    <Link to='/aloy'>ALOY<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Aloy_Icon.webp" alt="Aloy" title='Aloy' /></Link>
+                    <Link to='/charlotte'>CHARLOTTE<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Charlotte_Icon.webp" alt="Charlotte" title='Charlotte' /></Link>
+                    <Link to='/chongyun'>CHONGYUN<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Chongyun_Icon.webp" alt="Chongyun" title='Chongyun' /></Link>
+                    <Link to='/diona'>DIONA<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Diona_Icon.webp" alt="Diona" title='Diona' /></Link>
+                    <Link to='/eula'>EULA<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Eula_Icon.webp" alt="Eula" title='Eula' /></Link>
+                    <Link to='/freminet'>FREMINET<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Freminet_Icon.webp" alt="Freminet" title='Freminet' /></Link>
+                    <Link to='/ganyu'>GANYU<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Ganyu_Icon.webp" alt="Ganyu" title='Ganyu' /></Link>
+                    <Link to='/kaeya'>KAEYA<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Kaeya_Icon.webp" alt="Kaeya" title='Kaeya' /></Link>
+                    <Link to='/kamisato-ayaka'>AYAKA<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Kamisato_Ayaka_Icon.webp" alt="Ayaka" title='Ayaka' /></Link>
+                    <Link to='/layla'>LAYLA<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Layla_Icon.webp" alt="Layla" title='Layla' /></Link>
+                    <Link to='/mika'>MIKA<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Mika_Icon.webp" alt="Mika" title='Mika' /></Link>
+                    <Link to='/qiqi'>QIQI<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Qiqi_Icon.webp" alt="Qiqi" title='Qiqi' /></Link>
+                    <Link to='/rosaria'>ROSARIA<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Rosaria_Icon.webp" alt="Rosaria" title='Rosaria' /></Link>
+                    <Link to='/shenhe'>SHENHE<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Shenhe_Icon.webp" alt="Shenhe" title='Shenhe' /></Link>
+                    <Link to='/wriothesley'>WRIOTHESLEY<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Wriothesley_Icon.webp" alt="Wriothesley" title='Wriothesley' /></Link>
+                  </div>
+                </div>
+                <div className='elements-list'>DENDRO<i class="fa-solid fa-caret-right sieta"></i>
+                  <LazyLoadImage className='element-img' src="https://genshinbuild.com/images/We/Element_Dendro.webp" alt="Elemento Dendro" title='Elemento Dendro' />
+                  <div className='characters-header-list'>
+                    <Link to='/alhaitham'>ALHAITHAM<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Alhaitham_Icon.webp" alt="Alhaitham" title='Alhaitham' /></Link>
+                    <Link to='/baizhu'>BAIZHU<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Baizhu_Icon.webp" alt="Baizhu" title='Baizhu' /></Link>
+                    <Link to='/collei'>COLLEI<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Collei_Icon.webp" alt="Collei" title='Collei' /></Link>
+                    <Link to='/kaveh'>KAVEH<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Kaveh_Icon.webp" alt="Kaveh" title='Kaveh' /></Link>
+                    <Link to='/kirara'>KIRARA<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Kirara_Icon.webp" alt="Kirara" title='Kirara' /></Link>
+                    <Link to='/nahida'>NAHIDA<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Nahida_Icon.webp" alt="Nahida" title='Nahida' /></Link>
+                    <Link to='/tighnari'>TIGHNARI<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Tighnari_Icon.webp" alt="Tighnari" title='Tighnari' /></Link>
+                    <Link to='/traveler-dendro'>VIAJANTE<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Traveler2_Icon.webp" alt="Viajante Dendro" title='Viajante Dendro' /></Link>
+                    <Link to='/yaoyao'>YAOYAO<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Yaoyao_Icon.webp" alt="Yaoyao" title='Yaoyao' /></Link>
+                  </div>
+                </div>
+                <div className='elements-list'>ELECTRO<i class="fa-solid fa-caret-right sieta"></i>
+                  <LazyLoadImage className='element-img' src="https://genshinbuild.com/images/We/Element_Electro.webp" alt="Elemento Electro" title='Elemento Electro' />
+                  <div className='characters-header-list'>
+                    <Link to='/beidou'>Beidou<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Beidou_Icon.webp" alt="Beidou" title='Beidou' /></Link>
+                    <Link to='/cyno'>CYNO<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Cyno_Icon.webp" alt="Cyno" title='Cyno' /></Link>
+                    <Link to='/dori'>DORI<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Dori_Icon.webp" alt="Dori" title='Dori' /></Link>
+                    <Link to='/fischl'>FISCHL<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Fischl_Icon.webp" alt="Fischl" title='Fischl' /></Link>
+                    <Link to='/keqing'>KEQING<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Keqing_Icon.webp" alt="Keqing" title='Keqing' /></Link>
+                    <Link to='/kujou-sara'>KUJOU SARA<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Kujou_Sara_Icon.webp" alt="Kujou Sara" title='Kujou Sara' /></Link>
+                    <Link to='/kuki-shinobu'>SHINOBU<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Kuki_Shinobu_Icon.webp" alt="Kuki Shinobu" title='Kuki Shinobu' /></Link>
+                    <Link to='/lisa'>LISA<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Lisa_Icon.webp" alt="Lisa" title='Lisa' /></Link>
+                    <Link to='/raiden-shogun'>RAIDEN<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Raiden_Shogun_Icon.webp" alt="Raiden Shogun" title='Raiden Shogun' /></Link>
+                    <Link to='/razor'>RAZOR<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Razor_Icon.webp" alt="Razor" title='Razor' /></Link>
+                    <Link to='/traveler-electro'>VIAJANTE<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Traveler2_Icon.webp" alt="Viajante Electro" title='Viajante Electro' /></Link>
+                    <Link to='/yae-miko'>YAE MIKO<LazyLoadImage className='character-pop-up-img' src="https://genshinbuild.com/images/Characters/Yae_Miko_Icon.webp" alt="Yae Miko" title='Yae Miko' /></Link>
+                  </div>
+                </div>
+                <div className='elements-list'>GEO<i class="fa-solid fa-caret-right sieta"></i>
+                  <LazyLoadImage className='element-img' src="https://genshinbuild.com/images/We/Element_Geo.webp" alt="Elemento Geo" title='Elemento Geo' />
+                  <div className='characters-header-list'>
+                    <Link to='/alhaitham'>ALHAITHAM</Link>
+                    <Link to='/baizhu'>BAIZHU</Link>
+                    <Link to='/collei'>COLLEI</Link>
+                    <Link to='/kaveh'>KAVEH</Link>
+                    <Link to='/kirara'>KIRARA</Link>
+                    <Link to='/nahida'>NAHIDA</Link>
+                    <Link to='/tighnari'>TIGHNARI</Link>
+                    <Link to='/traveler-dendro'>VIAJANTE<br/>DENDRO</Link>
+                    <Link to='/yaoyao'>YAOYAO</Link>
+                  </div>
+                </div>
+                <div className='elements-list'>HYDRO<i class="fa-solid fa-caret-right sieta"></i>
+                </div>
+                <div className='elements-list'>PYRO<i class="fa-solid fa-caret-right sieta"></i>
+                </div>
+              </div>
+            </Link>
+            
+#characters-pop-up {
+    position: relative;
+}
+#pop-up-list {
+    display: none;
+    background: var(--background);
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    z-index: 10000;
+    padding-top: 6px;
+    border-radius: 0px 0px 6px 6px;
+}
+#characters-pop-up:hover #pop-up-list {
+    display: block;
+    color: var(--pt);
+}
+#pop-up-list .elements-list {
+    padding: 9px 12px;
+    font-size: 14.5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.elements-list:last-of-type {
+    border-radius: 0px 0px 5px 5px;
+}
+.characters-header-list a:hover, .elements-list:hover {
+    background: #5273b9;
+}
+.elements-list:hover .element-img {
+    opacity: 0.35;
+    transition: .2s;
+}
+.element-img, .character-pop-up-img {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+}
+.element-img {
+    right: 29px;
+    opacity: 1;
+}
+.character-pop-up-img {
+    height: 24px;
+    width: 24px;
+    right: 5px;
+    border-radius: 50%;
+}
+.characters-header-list a:first-of-type:hover {
+    border-radius: 0px 5px 0px 0px;
+
+}
+.characters-header-list a:last-of-type:hover {
+    border-radius: 0px 0px 5px 5px;
+
+}
+.elements-list:hover i {
+    transform: rotate(90deg);
+    transition: .3s;
+}
+.characters-header-list{
+    display: none;
+    background: var(--background);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 135.3px;
+    z-index: 10000;
+    border-radius: 0px 6px 6px 6px;
+    box-shadow: var(--box);
+}
+.characters-header-list a{
+    padding: 9px 12px;
+    font-size: 14.5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#pop-up-list .elements-list:hover .characters-header-list{
+    display: block;
+}
