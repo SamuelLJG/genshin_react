@@ -1,0 +1,401 @@
+import Chiori from "./pages/Chiori"  
+import Albedo from "./pages/Albedo"  
+import Alhaitham from "./pages/Alhaitham"  
+import Aloy from "./pages/Aloy"  
+import Amber from "./pages/Amber"  
+import Wanderer from "./pages/Wanderer"  
+import AratakiItto from "./pages/AratakiItto"  
+import Barbara from "./pages/Barbara"  
+import Baizhu from "./pages/Baizhu"  
+import Beidou from "./pages/Beidou"  
+import Bennett from "./pages/Bennett"  
+import Candace from "./pages/Candace"  
+import Charlotte from "./pages/Charlotte"  
+import Chongyun from "./pages/Chongyun"  
+import Collei from "./pages/Collei"  
+import Cyno from "./pages/Cyno"  
+import Dehya from "./pages/Dehya"  
+import Diluc from "./pages/Diluc"  
+import Diona from "./pages/Diona"  
+import Dori from "./pages/Dori"  
+import Eula from "./pages/Eula"  
+import Faruzan from "./pages/Faruzan"  
+import Fischl from "./pages/Fischl"  
+import Freminet from "./pages/Freminet"  
+import Furina from "./pages/Furina"  
+import Ganyu from "./pages/Ganyu"  
+import Gorou from "./pages/Gorou"  
+import HuTao from "./pages/HuTao"  
+import Jean from "./pages/Jean"  
+import Kazuha from "./pages/Kazuha"  
+import Kaeya from "./pages/Kaeya"  
+import Ayaka from "./pages/Ayaka"  
+import Ayato from "./pages/Ayato"  
+import Kaveh from "./pages/Kaveh"  
+import Keqing from "./pages/Keqing"  
+import Kirara from "./pages/Kirara"  
+import Klee from "./pages/Klee"  
+import KujouSara from "./pages/KujouSara"  
+import KukiShinobu from "./pages/KukiShinobu"  
+import Layla from "./pages/Layla"  
+import Lisa from "./pages/Lisa"  
+import Lynette from "./pages/Lynette"  
+import Lyney from "./pages/Lyney"  
+import Mika from "./pages/Mika"  
+import Mona from "./pages/Mona"  
+import Nahida from "./pages/Nahida"  
+import Neuvillette from "./pages/Neuvillette"  
+import Nilou from "./pages/Nilou"  
+import Ningguang from "./pages/Ningguang"  
+import Noelle from "./pages/Noelle"  
+import Qiqi from "./pages/Qiqi"  
+import Raiden from "./pages/Raiden"  
+import Razor from "./pages/Razor"  
+import Rosaria from "./pages/Rosaria"  
+import Kokomi from "./pages/Kokomi"  
+import Sayu from "./pages/Sayu"  
+import Shenhe from "./pages/Shenhe"  
+import Heizou from "./pages/Heizou"  
+import Sucrose from "./pages/Sucrose"  
+import Tartaglia from "./pages/Tartaglia"  
+import Thoma from "./pages/Thoma"  
+import Tighnari from "./pages/Tighnari"  
+import TravelerAnemo from "./pages/TravelerAnemo"
+import TravelerCryo from "./pages/TravelerCryo"
+import TravelerDendro from "./pages/TravelerDendro"
+import TravelerElectro from "./pages/TravelerElectro"
+import TravelerHydro from "./pages/TravelerHydro"  
+import Venti from "./pages/Venti"  
+import Wriothesley from "./pages/Wriothesley"  
+import Xiangling from "./pages/Xiangling"  
+import Xiangyun from "./pages/Xiangyun"  
+import Xiao from "./pages/Xiao"  
+import Xingqiu from "./pages/Xingqiu"  
+import Xinyan from "./pages/Xinyan"
+import YaeMiko from "./pages/YaeMiko"  
+import Yanfei from "./pages/Yanfei"  
+import Yaoyao from "./pages/Yaoyao"  
+import Yelan from "./pages/Yelan"
+import Yoimiya from "./pages/Yoimiya"
+import YunJin from "./pages/YunJin"
+import Zhongli from "./pages/Zhongli"  
+,
+      {
+      path: "/albedo",
+      element :<Albedo />, 
+      },
+      {
+      path: "/alhaitham",
+      element :<Alhaitham />, 
+      },
+      {
+      path: "/aloy",
+      element :<Aloy />, 
+      },
+      {
+      path: "/amber",
+      element :<Amber />, 
+      },
+      {
+      path: "/wanderer",
+      element :<Wanderer />, 
+      },
+      {
+      path: "/arataki-itto",
+      element :<AratakiItto />, 
+      },
+      {
+      path: "/barbara",
+      element :<Barbara />, 
+      },
+      {
+      path: "/baizhu",
+      element :<Baizhu />, 
+      },
+      {
+      path: "/beidou",
+      element :<Beidou />, 
+      },
+      {
+      path: "/bennett",
+      element :<Bennett />, 
+      },
+      {
+      path: "/candace",
+      element :<Candace />, 
+      },
+      {
+      path: "/charlotte",
+      element :<Charlotte />, 
+      },
+      {
+      path: "/chongyun",
+      element :<Chongyun />, 
+      },
+      {
+      path: "/collei",
+      element :<Collei />, 
+      },
+      {
+      path: "/cyno",
+      element :<Cyno />, 
+      },
+      {
+      path: "/dehya",
+      element :<Dehya />, 
+      },
+      {
+      path: "/diluc",
+      element :<Diluc />, 
+      },
+      {
+      path: "/diona",
+      element :<Diona />, 
+      },
+      {
+      path: "/dori",
+      element :<Dori />, 
+      },
+      {
+      path: "/eula",
+      element :<Eula />, 
+      },
+      {
+      path: "/faruzan",
+      element :<Faruzan />, 
+      },
+      {
+      path: "/fischl",
+      element :<Fischl />, 
+      },
+      {
+      path: "/freminet",
+      element :<Freminet />, 
+      },
+      {
+      path: "/furina",
+      element :<Furina />, 
+      },
+      {
+      path: "/ganyu",
+      element :<Ganyu />, 
+      },
+      {
+      path: "/gorou",
+      element :<Gorou />, 
+      },
+      {
+      path: "/hutao",
+      element :<HuTao />, 
+      },
+      {
+      path: "/Jean",
+      element :<Jean />, 
+      },
+      {
+      path: "/kaedehara-kazuha",
+      element :<Kazuha />, 
+      },
+      {
+      path: "/kaeya",
+      element :<Kaeya />, 
+      },
+      {
+      path: "/kamisato-ayaka",
+      element :<Ayaka />, 
+      },
+      {
+      path: "/kamisato-ayato",
+      element :<Ayato />, 
+      },
+      {
+      path: "/kaveh",
+      element :<Kaveh />, 
+      },
+      {
+      path: "/keqing",
+      element :<Keqing />, 
+      },
+      {
+      path: "/kirara",
+      element :<Kirara />, 
+      },
+      {
+      path: "/klee",
+      element :<Klee />, 
+      },
+      {
+      path: "/kujou-sara",
+      element :<KujouSara />, 
+      },
+      {
+      path: "/kuki-shinobu",
+      element :<KukiShinobu />, 
+        },
+      {
+      path: "/layla",
+      element :<Layla />, 
+      },
+      {
+      path: "/lisa",
+      element :<Lisa />, 
+      },
+      {
+      path: "/lynette",
+      element :<Lynette />, 
+      },
+      {
+      path: "/lyney",
+      element :<Lyney />, 
+      },
+      {
+      path: "/mika",
+      element :<Mika />, 
+      },
+      {
+      path: "/mona",
+      element :<Mona />, 
+      },
+      {
+      path: "/nahida",
+      element :<Nahida />, 
+      },
+      {
+      path: "/neuvillette",
+      element :<Neuvillette />, 
+      },
+      {
+      path: "/nilou",
+      element :<Nilou />, 
+      },
+      {
+      path: "/ningguang",
+      element :<Ningguang />, 
+      },
+      {
+      path: "/noelle",
+      element :<Noelle />, 
+      },
+      {
+      path: "/qiqi",
+      element :<Qiqi />, 
+      },
+      {
+      path: "/raiden-shogun",
+      element :<Raiden />, 
+      },
+      {
+      path: "/razor",
+      element :<Razor />, 
+      },
+      {
+      path: "/rosaria",
+      element :<Rosaria />, 
+      },
+      {
+      path: "/sangonomiya-kokomi",
+      element :<Kokomi />, 
+      },
+      {
+      path: "/sayu",
+      element :<Sayu />, 
+      },
+      {
+      path: "/shenhe",
+      element :<Shenhe />, 
+      },
+      {
+      path: "/shikanoin-heizou",
+      element :<Heizou />, 
+      },
+      {
+      path: "/sucrose",
+      element :<Sucrose />, 
+      },
+      {
+      path: "/tartaglia",
+      element :<Tartaglia />, 
+      },
+      {
+      path: "/thoma",
+      element :<Thoma />, 
+      },
+      {
+      path: "/tighnari",
+      element :<Tighnari />, 
+      },
+      {
+      path: "/traveler-anemo",
+      element :<TravelerAnemo />, 
+        },
+      {
+      path: "/traveler-cryo",
+      element :<TravelerCryo />, 
+        },
+      {
+      path: "/traveler-dendro",
+      element :<TravelerDendro />, 
+        },
+      {
+      path: "/traveler-electro",
+      element :<TravelerElectro />, 
+        },
+      {
+      path: "/traveler-hydro",
+      element :<TravelerHydro />, 
+        },
+      {
+      path: "/venti",
+      element :<Venti />, 
+      },
+      {
+      path: "/wriothesley",
+      element :<Wriothesley />, 
+      },
+      {
+      path: "/xiangling",
+      element :<Xiangling />, 
+      },
+      {
+      path: "/xiangyun",
+      element :<Xiangyun />, 
+      },
+      {
+      path: "/xiao",
+      element :<Xiao />, 
+      },
+      {
+      path: "/xingqiu",
+      element :<Xingqiu />, 
+      },
+      {
+      path: "/xinyan",
+      element :<Xinyan />, 
+      },
+      {
+      path: "/yae-miko",
+      element :<YaeMiko />, 
+        },
+      {
+      path: "/yanfei",
+      element :<Yanfei />, 
+      },
+      {
+      path: "/yaoyao",
+      element :<Yaoyao />, 
+      },
+      {
+      path: "/yelan",
+      element :<Yelan />, 
+      },
+      {
+      path: "/yoimiya",
+      element :<Yoimiya />, 
+      },
+      { 
+      path: "/yun-jin",
+      element :<YunJin />, 
+      },{
+      path: "/zhongli",
+      element :<Zhongli />, 
+      }

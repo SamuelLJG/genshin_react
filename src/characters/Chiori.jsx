@@ -2,8 +2,8 @@ import { ChioriHelmet } from "../components/Helmets"
 import Characters from "../components/Characters"
 import WeaponCard from "../components/WeaponCard"
 import ArtefactCard from "../components/ArtefactCard"
-import Weapons from "../components/WeaponsData.json"
-import Artefacts from "../components/ArtefactsData.json"
+import Weapons from "../database/WeaponsData.json"
+import Artefacts from "../database/ArtefactsData.json"
 
 export default function Chiori() {
     return<>

@@ -1,14 +1,16 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 import App from "./App"
-import Chiori from "./pages/Chiori"
+import Chiori from "./characters/Chiori"  
+ 
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
-import Home from "./pages/Home"
-import TierList from "./pages/TierList"
-import Teams from "./pages/Teams"
-import Farming from "./pages/Farming"
-import ErrorPage from "./pages/ErrorPage"
+import Home from "./header-pages/Home"
+import TierList from "./header-pages/TierList"
+import Teams from "./header-pages/Teams"
+import Farming from "./header-pages/Farming"
+import ErrorPage from "./header-pages/ErrorPage"
 import { HelmetProvider } from "react-helmet-async"
 
 const router = createBrowserRouter([
@@ -18,25 +20,26 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
-        element: <Home />,
+      path: "/",
+      element: <Home />,
       },
       {
-        path: "/tier-list",
-        element: <TierList />,
+      path: "/tier-list",
+      element: <TierList />,
       },
       {
-        path: "/times",
-        element: <Teams />,
+      path: "/times",
+      element: <Teams />,
       },
       {
-        path: "/farming",
-        element: <Farming />,
+      path: "/farming",
+      element: <Farming />,
       },
       {
-        path: "/chiori",
-        element: <Chiori />,
-      },
+      path: "/chiori",
+      element :<Chiori />, 
+      }
+      
     ]
   },
   
