@@ -1,0 +1,30 @@
+[
+    {
+        "id": 0,
+        "CharacterTeamName" : "Xiao",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Xiao.webp",
+        "CharacterUrl": "/xiao",
+        "CharacterTeamElement": "anemo"
+    },
+    {
+        "id": 1,
+        "CharacterTeamName" : "Furina",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Furina.webp",
+        "CharacterUrl": "/furina",
+        "CharacterTeamElement": "hydro"
+    },
+    {
+        "id": 2,
+        "CharacterTeamName" : "Faruzan",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Faruzan.webp",
+        "CharacterUrl": "/faruzan",
+        "CharacterTeamElement": "anemo"
+    },
+    {
+        "id": 3,
+        "CharacterTeamName" : "Xianyun",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Xianyun.webp",
+        "CharacterUrl": "/xianyun",
+        "CharacterTeamElement": "anemo"
+    }
+    ]

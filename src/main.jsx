@@ -1,17 +1,16 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 import App from "./App"
-import Chiori from "./characters/Chiori"  
  
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { HelmetProvider } from "react-helmet-async"
 
 import Home from "./header-pages/Home"
 import TierList from "./header-pages/TierList"
 import Teams from "./header-pages/Teams"
 import Farming from "./header-pages/Farming"
 import ErrorPage from "./header-pages/ErrorPage"
-import { HelmetProvider } from "react-helmet-async"
+import Chiori from "./characters/Chiori"  
 
 const router = createBrowserRouter([
   {
@@ -48,7 +47,7 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HelmetProvider>
-    <RouterProvider router={router} />
+      <RouterProvider router={router} />
     </HelmetProvider>
   </React.StrictMode>
 )

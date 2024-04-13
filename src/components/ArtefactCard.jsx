@@ -1,8 +1,8 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
-export default function ArtefactCard({WeaponsArtefactsContainer, WeaponsArtefactsOption, ArtefactCardImage, ArtefactCardAlt, ArtefactRarityImage, ArtefactRarityAlt, ArtefactSubStats, ArtefactSubStats2, ArtefactSubStats3, ArtefactDescription, ArtefactDescription2}) {
-    return <div className={WeaponsArtefactsContainer}> 
-    <p className={WeaponsArtefactsOption}>{WeaponsArtefactsOption}</p>
+export default function ArtefactCard({WeaponsArtefactsContainer, ArtefactCardImage, ArtefactCardAlt, ArtefactRarityImage, ArtefactRarityAlt, ArtefactSubStats, ArtefactDescription}) {
+    return <div className={'best-optional '+WeaponsArtefactsContainer}> 
+    
     <div className="flex-wa">
         <div className="weapons-artefacts-image-container">
             <LazyLoadImage
@@ -19,13 +19,12 @@ export default function ArtefactCard({WeaponsArtefactsContainer, WeaponsArtefact
         </div>
         <div className="ag-title">
             <h4>{ArtefactCardAlt}</h4>
-            <p><i className="fa-regular fa-hourglass-half"></i>&nbsp;{ArtefactSubStats}</p>
-            <p><i className="fa-solid fa-trophy"></i>&nbsp;{ArtefactSubStats2}</p>
-            <p><i className="fa-solid fa-crown"></i>&nbsp;{ArtefactSubStats3}</p>
+            <p><i className="fa-regular fa-hourglass-half"></i>&nbsp;{ArtefactSubStats[0]}</p>
+            <p><i className="fa-solid fa-trophy"></i>&nbsp;{ArtefactSubStats[1]}</p>
+            <p><i className="fa-solid fa-crown"></i>&nbsp;{ArtefactSubStats[2]}</p>
         </div>
     </div>
-    <p>{ArtefactDescription}</p>
-    <br />
-    <p>{ArtefactDescription2}</p>
+    <p className="wa-p-margin-top">{ArtefactDescription[0]}</p>
+    <p style={{marginTop:'10px'}}>{ArtefactDescription[1]}</p>
 </div>
 }

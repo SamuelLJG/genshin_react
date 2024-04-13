@@ -2,7 +2,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Characters(props) {
         return <><br />
-       <main id={props.MainElement}>
+       <main id={props.MainElement} className="characters-main">
             
             <section id="section-character" className={props.MainElement}>
                 <div id="character-background" style={{backgroundImage:props.characterbackground}}></div>
@@ -41,7 +41,7 @@ function Characters(props) {
             <p>{props.BestWeaponDescription}</p>
             <br />
             <section className="weapons-artefacts-section">
-                {props.children[0]}{props.children[1]}
+                {props.children[0]}
             </section>
             <br />
             <p>{props.OtherWeapons}</p>
@@ -50,7 +50,7 @@ function Characters(props) {
             <p>{props.BestArtefactDescription}</p>
             <br />
             <section className="weapons-artefacts-section">
-                {props.children[2]}{props.children[3]}
+                {props.children[1]}
             </section>
             <br />
             <h3>{props.CharacterName} Artefatos Sub-Atributos</h3>
@@ -59,6 +59,28 @@ function Characters(props) {
             <h3>{props.CharacterName} Prioridade de Talentos</h3>
             <p>{props.TalentPriority}</p>
         </article>
+        <br />
+        <br />
+        <h2 id="best-teams-title">{props.CharacterName} Melhores Times</h2>
+        <br />
+        <section id="teams-section">
+            <p>{props.TeamsDescription}</p>
+            <br />
+            <h3>{props.CharacterName} Time {props.TeamsTitle[0]}</h3>
+            <p>{props.TeamsCharacterDescription[0]}</p>
+            <br />
+            <div className="character-team-container">{props.children[2]}</div>
+            <br />
+            <h3>{props.CharacterName} Time {props.TeamsTitle[1]}</h3>
+            <p>{props.TeamsCharacterDescription[1]}</p>
+            <br />
+            <div className="character-team-container">{props.children[3]}</div>
+            <br />
+            <h3>{props.CharacterName} Time {props.TeamsTitle[2]}</h3>
+            <p>{props.TeamsCharacterDescription[2]}</p>
+            <br />
+            <div className="character-team-container">{props.children[4]}</div>
+        </section>
 </main> </>
 }
 
