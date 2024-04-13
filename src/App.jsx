@@ -18,7 +18,6 @@ function App() {
       <meta name="viewport" content="width=device-width,initial-scale=1" />
       <meta name="robots" content="max-image-preview:large" />
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-      <link rel="stylesheet" href="style.css" />
       <link rel="manifest" href="/site.webmanifest" />
       <link rel="shortcut icon" href="https://genshinbuild.com/favicon.ico" type="image/x-icon`" />
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

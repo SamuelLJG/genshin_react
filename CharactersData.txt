@@ -68,7 +68,7 @@ import TravelerHydro from "./pages/TravelerHydro"
 import Venti from "./pages/Venti"  
 import Wriothesley from "./pages/Wriothesley"  
 import Xiangling from "./pages/Xiangling"  
-import Xiangyun from "./pages/Xiangyun"  
+import Xianyun from "./pages/Xianyun"  
 import Xiao from "./pages/Xiao"  
 import Xingqiu from "./pages/Xingqiu"  
 import Xinyan from "./pages/Xinyan"
@@ -357,8 +357,8 @@ import Zhongli from "./pages/Zhongli"
       element :<Xiangling />, 
       },
       {
-      path: "/xiangyun",
-      element :<Xiangyun />, 
+      path: "/xianyun",
+      element :<Xianyun />, 
       },
       {
       path: "/xiao",

@@ -12,7 +12,11 @@ function Home() {
         <link rel="alternate" hreflang="pt-br" href="https://genshinbuild.com/" />
         <title>Genshin Impact | Builds, Times e TierList de Personagens</title>
       </Helmet>
-      <h1>Home</h1>
+      <br />
+      <main id="characters-main">
+       <br />
+      <h1>Gesnhin Impact Lista de Personagens</h1>
+      </main>
     </>
   }
   

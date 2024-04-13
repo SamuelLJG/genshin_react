@@ -11,9 +11,9 @@ const weaponsSelector = [WeaponsData[0],WeaponsData[1]]
 
 const artefactsSelector = [ArtefactsData[0],ArtefactsData[1]]
 
-const charactersTeamSelector = [CharactersData[0],CharactersData[1],CharactersData[2],CharactersData[3]]
-const charactersTeamSelector2 = [CharactersData[3],CharactersData[2],CharactersData[1],CharactersData[0]]
-const charactersTeamSelector3 = [CharactersData[1],CharactersData[3],CharactersData[0],CharactersData[2]]
+const charactersTeamSelector = [CharactersData[6],CharactersData[0],CharactersData[26],CharactersData[80]]
+const charactersTeamSelector2 = [CharactersData[71],CharactersData[0],CharactersData[70],CharactersData[80]]
+const charactersTeamSelector3 = [CharactersData[27],CharactersData[0],CharactersData[72],CharactersData[80]]
 
 
 export default function Chiori() {
@@ -39,7 +39,7 @@ export default function Chiori() {
         ArtefactSubAttribute="Como você precisará causar o máximo de dano possível, é importante buildar Dano Crítico e Taxa Crítica. Você também pode buildar DEF% e ATQ%, mas esses são de segunda prioridade."
         TalentPriority="O Talento da Chiori que você deve priorizar é a Habilidade Elemental, por ser a Skill que ela mais usará fora de campo. O Supremo é de segunda prioridade e o Ataque Básico não é necessário."
         TeamsDescription="Os melhores times para o Alhaitham normalmente são aqueles contêm personagens do tipo Hydro e Electro, para que junto ao elemento Dendro do personagen, possam ser desencadeadas reações de Aceleração e SuperFlorescimento. Portanto, você pode escolher os companheiros do Alhaitham baseando-se nesses elementos."
-        TeamsTitle={["de Vaporização #1","de Vaporização #2","de Vaporização #3"]}
+        TeamsTitle={["Standard","Premium","de Vaporização"]}
         TeamsCharacterDescription={[
         "Xiao funcionará bem com a Xianyun para curar e reduzir as necessidades de energia de ambos. Furina fornecerá buff e dano adicional para todo o time. Com Xianyun, o dano da Furina é aumentado e os acúmulos podem ser obtidos mais rapidamente. Faruzan fortalecerá Xiao e fornecer energia em constelações superiores.",
 
@@ -85,12 +85,12 @@ export default function Chiori() {
                 return (
                     <TeamsCard
                     key={id}
-                    id={item.id}
+                    id={id}
                     CharacterTeamName={item.CharacterTeamName}
                     CharacterTeamNameImage={item.CharacterTeamNameImage}
                     CharacterUrl={item.CharacterUrl}
                     CharacterTeamElement={item.CharacterTeamElement}
-                    CF={['Main DPS','Sub-DPS','Sub-DPS','Suporte']}
+                    CF={['Main DPS','Sub-DPS','Suporte','Suporte']}
                     />
                 )
             })
@@ -100,12 +100,12 @@ export default function Chiori() {
                 return (
                     <TeamsCard
                     key={id}
-                    id={item.id}
+                    id={id}
                     CharacterTeamName={item.CharacterTeamName}
                     CharacterTeamNameImage={item.CharacterTeamNameImage}
                     CharacterUrl={item.CharacterUrl}
                     CharacterTeamElement={item.CharacterTeamElement}
-                    CF={['Main DPS','Sub-DPS','Sub-DPS','Suporte']}
+                    CF={['Main DPS','Sub-DPS','Suporte','Suporte']}
                     />
                 )
             })
@@ -115,7 +115,7 @@ export default function Chiori() {
                 return (
                     <TeamsCard
                     key={id}
-                    id={item.id}
+                    id={id}
                     CharacterTeamName={item.CharacterTeamName}
                     CharacterTeamNameImage={item.CharacterTeamNameImage}
                     CharacterUrl={item.CharacterUrl}
