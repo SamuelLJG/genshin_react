@@ -1,0 +1,42 @@
+{
+    "start_url": "/",
+    "name":"Genshin Build App",
+    "short_name":"Genshin Build App",
+    "description": "Baixe nosso site como aplicativo.",
+    "theme_color":"#f5f5f5",
+    "background_color":"#191919",
+    "display":"standalone",
+    "id": "/",
+    "orientation": "any",
+    "icons":[
+        {
+            "src":"/android-chrome-256x256.png",
+            "sizes":"256x256",
+            "type":"image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src":"/android-chrome-512x512.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        }
+    ],
+    "screenshots": [
+        {
+          "src": "screenshot-1280x800.png",
+          "sizes": "1280x800",
+          "type": "image/png",
+          "form_factor": "wide"
+        },
+        {
+          "src": "screenshot-750x1512.png",
+          "sizes": "750x1512",
+          "type": "image/png"
+        }
+    ],
+    "display_override": [
+        "standalone",
+        "minimal-ui",
+        "window-controls-overlay"
+    ]
+}

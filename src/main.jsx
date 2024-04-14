@@ -11,6 +11,7 @@ import Teams from "./header-pages/Teams"
 import Farming from "./header-pages/Farming"
 import ErrorPage from "./header-pages/ErrorPage"
 import Chiori from "./characters/Chiori"  
+import "../public/App"
 
 const router = createBrowserRouter([
   {

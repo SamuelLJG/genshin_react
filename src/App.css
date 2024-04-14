@@ -88,14 +88,14 @@ main {
     text-align: center;
 }
 .weapons-artefacts-section img:first-of-type {
-    height: 90px;
-    width: 90px;
+    max-width: 90px;
+    width: 24vw;
     border-bottom-left-radius: 25px;
     margin-bottom: -13px;
 }
 .weapons-artefacts-section img:last-of-type {
-    height: 20px;
-    width: auto;
+    max-height: 20px;
+    height: 5vw;
 }
 .ag-title {
     display: inline-block;
@@ -337,6 +337,7 @@ h1 {
 }
 #teams-section img {
     border-radius: 50%;
+    width: 116px;
 }
 .character-team-container {
     display: flex;
@@ -344,8 +345,9 @@ h1 {
     gap: 70px;
     background-color: var(--css);
     box-shadow: var(--box);
-    padding: 10px 0;
+    padding: 16px 0;
     border-radius: 5px;
+    margin: auto;
 }
 .character-team-card {
     text-align: center;
@@ -363,19 +365,20 @@ h1 {
     font-weight: bold;
     margin-top: -2px;
     letter-spacing: .4px;
-    font-size: 13px;
+    font-size: min(13px, 3vw);
+    white-space: nowrap;
     color: rgba(255, 255, 255, 0.767);
 }
 @media only screen and (max-width: 820px) {
     main {
         margin: 0px 10px;
-    }
+    } 
 }
 @media only screen and (min-width: 706px) {
     .weapons-artefacts-section p {
         max-height: 130px;
         overflow: auto;
-    } 
+    }
     }
 @media only screen and (max-width: 1070px) {
     main {
@@ -383,15 +386,11 @@ h1 {
         padding: 10px;
         margin-top: 70px;
     }
-    .character-section-main {
+    .character-section-main, #teams-section {
         padding: 15px;
     }
     .weapons-artefacts-section {
         gap: 15px;
-    }
-    .weapons-artefacts-section img:first-of-type {
-        height: 80px;
-        width: 80px;
     }
     #pc {
         display: none;
@@ -403,6 +402,20 @@ h1 {
     }
     #mobile {
         display: flex;
+    }
+    .character-team-container {
+        gap: 0;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+    #teams-section img {
+        width: 18vw;
+        max-width: 100px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .character-section-main, #teams-section {
+        padding: 10px;
     }
 }
 @media only screen and (min-width: 1071px) {

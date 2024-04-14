@@ -43,7 +43,7 @@
     },
     {
         "id": 6,
-        "CharacterTeamName" : "Arataki Itto",
+        "CharacterTeamName" : "Itto",
         "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Arataki_Itto.webp",
         "CharacterUrl": "/arataki-itto",
         "CharacterTeamElement": "geo"

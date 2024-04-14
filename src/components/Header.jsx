@@ -33,8 +33,10 @@ const Header = () => {
     <nav id='mobile'>
         <Link to='/' className='home-link'>GENSHIN&nbsp;<i className="fa-brands fa-meta"></i>&nbsp;BUILD</Link>
         <input type="checkbox" id="mobile-button" />
-        <label htmlFor="mobile-button" onClick={Mobile}><i id='open-menu' className="fa-solid fa-bars"></i><i id='close-menu' className="fa-solid fa-x"></i></label>
-        
+        <label htmlFor="mobile-button" onClick={Mobile}>
+          <i id='open-menu' className="fa-solid fa-bars"></i>
+          <i id='close-menu' className="fa-solid fa-x"></i>
+        </label>
     </nav>
     <div id='mobile-counter'>
       <div id='mobile-links'></div>
